@@ -1,0 +1,117 @@
+title{
+    font-family: Crimson Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 200;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+nav-text{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+sub-title{
+    font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+parrafo{
+    font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+    background: #FFFFFF;
+
+}
+read-more{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+card-name{
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+sub-title-nam{
+    font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+background: #828282;
+
+}
+info-card{
+    font-family: Lora;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+}
+footer{
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+background: #A9A9A9;
+
+}
