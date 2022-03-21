@@ -50,7 +50,7 @@ nav {
 }
 .full {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0px;
     z-index: 999;
@@ -182,6 +182,7 @@ footer a{
 }
 @media (min-width: 610px) {
     .full { 
+        position: relative;
         align-self: center;
         display: inline-block !important;
         position: relative;
