@@ -99,7 +99,7 @@ nav {
 /* end menu nav*/
 .main {
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0rem 5rem 0rem;
 }
 .sub-title {
     font-family: Lora;
@@ -158,6 +158,20 @@ nav {
     font-weight: 700;
     padding-top: 1rem;
 }
+footer{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+    color: #FFF;
+}
+footer p{
+    font-weight: 500;
+}
+footer a{
+    font-weight: 700;
+    color: #FFF;
+}
 .sm-100 { width: 100%; }
 @media (min-width: 400px){
     .card {
@@ -192,7 +206,7 @@ nav {
     }
     #bot-open { display: none;}
     #bot-close { display: none;}
-    .main { padding: 6rem 0rem;}
+    .main { padding: 5.5rem 0rem;}
     .card { width: 70%; }
     .lg-50 { width: 50%; }
 }
