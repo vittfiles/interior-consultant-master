@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://fir-web-2cb05.web.app/">
+    <a href="https://fir-web-2cb05.web.app/consultant.html">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/vittfiles/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
