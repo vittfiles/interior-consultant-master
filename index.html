@@ -1,95 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior consultant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container" id="header">
+        <h1 class="title  ">THE INTERIOR</h1>
+        <nav class="item">
+            <div class="container bot-container">
+                <button id="bot-open" class="menu-img">
+                    <img src="img/1x/outline_menu_white_24dp.png" alt="open-menu">
+                </button>
+            </div>
+            <div id="menu" class="full">
+                <a href="#header">
+                    <img id="bot-close" class="close" src="img/1x/outline_close_white_24dp.png" alt="close menu">
+                </a>
+                <ul>
+                    <li class="menu-item"><a class="checked" href="">Home</a></li>
+                    <li class="menu-item"><a href="">Collection</a></li>
+                    <li class="menu-item"><a href="">About</a></li>
+                    <li class="menu-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container main">
+        <article class="item container sm-100 lg-50">
+            <h2 class="sub-title sm-100">Modern interior</h2>
+            <p class="info sm-100">
+                A full-Service residential & <br>
+                commercial interior design and <br>
+                staging company offfering <br>
+                professional organizing & <br>
+                eco-services.
+            </p>
+            <a href="" class="link">Read more</a>
+        </article>
+        <figcaption class="item container pos-relative sm-100 lg-50">
+            <img src="img/photo1.webp" alt="" class="sm-100">
+            <section class="container card">
+                <figcaption class="user">
+                    <img src="img/photo2.webp" alt="user" class="sm-100">
+                </figcaption>
+                <div class="item">
+                    <h3 class="card-name">Aliza Webber</h3>
+                    <h4 class="card-subtitle">Interior designer</h4>
+                </div>
+                <p class="card-info">Designed in 2020 by <br>Aliza Webber</p>
+            </section>
+        </figcaption>
+    </main>
+    <footer class="container sm-100"><p class="item">created by <a href="">vittfiles</a> - devChallenges.io</p></footer>
+    <script src="code.js"></script>
+</body>
 </html>

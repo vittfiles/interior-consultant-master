@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://fir-web-2cb05.web.app/consultant.html">
+    <a href="https://vittfiles.github.io/interior-consultant-master">
       Demo
     </a>
     <span> | </span>
@@ -37,12 +37,8 @@
 
 ![screenshot](https://github.com/vittfiles/interior-consultant-master/blob/main/web.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+A responsive website design for interior consulting with hamburger button made with:
+- HTML, CSS and JavaScript
 
 ## Features
 
